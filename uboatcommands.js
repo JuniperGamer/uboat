@@ -1,26 +1,25 @@
-function help(){
-    help.help()
-}
-const help = {
+const uboat = {
     help() {
-        console.log("All commands listed:\n - help // Shows commands enabled\n clear // clears the console.\n github.go // takes you to Uboat's github respritory");
+      console.log("All commands listed:\n - help // Shows commands enabled\n clear // clears the console.\n github.go // takes you to Uboat's github repository");
     },
-};
-
-function clear(){
-    clear.clear()
-}
-const clear = {
     clear() {
-        console.clear();
+      console.clear();
     },
-}
+    github() {
+      window.location.href = "https://github.com/JuniperGamer/uboat";
+    }
+  }
+  
+  function help() {
+    uboat.help();
+  }
+  
+  function clear() {
+    uboat.clear();
+  }
+  
+  function github() {
+    uboat.github();
+  }
 
-function github(){
-    github.go()
-}
-const github = {
-    go() {
-        window.location.href = "https://github.com/JuniperGamer/uboat";
-    },
-}
+// use uboat.example() to call a command
