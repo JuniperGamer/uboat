@@ -1,32 +1,26 @@
 function help(){
-    custom.help()
+    help.help()
 }
-
-const custom = {
+const help = {
     help() {
-        console.log("All commands listed:%0D%0A - help // Shows commands enabled%0D%0A uboatplus // Takes you to a link to download uboat+%0D%0A uboatplushelp // tells you what uboat+ is.");
+        console.log("All commands listed:\n - help // Shows commands enabled\n clear // clears the console.\n github.go // takes you to Uboat's github respritory");
     },
 };
+
+function clear(){
+    clear.clear()
+}
 const clear = {
     clear() {
         console.clear();
     },
 }
 
-const uboatplus = {
-    uboatplus() {
-        console.log("Feature not ready.")
+function github(){
+    github.go()
+}
+const github = {
+    go() {
+        window.location.href = "https://github.com/JuniperGamer/uboat";
     },
-}
-
-const DEBUGuboatplus = {
-    DEBUGuboatplus() {
-        window.location = "https://duckduckgo.com/?q=uwu&atb=v361-1&ia=web";
-    }
-}
-
-const uboatplushelp = {
-    uboatplushelp() {
-        console.log("Uboat + is a an extended version of uboat that adds particular words translated to their values %0D%0A this extension is not ready yet! so please be patient.")
-    }
 }
