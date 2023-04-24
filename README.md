@@ -13,6 +13,7 @@ Here is a list of features currently available in Uboat:
 - A command to redirect the user to the Uboat GitHub repository
 - Uboat is still in development, so more features may be added in the future.
 
+*written by chatgpt*
 # Roadmap
 - Improving encoding and decoding features
 - Allowing translation between other encoders (Morse Code, ASCII) and Uboat Language
