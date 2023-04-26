@@ -1,6 +1,12 @@
 # uboat
 A multi-language system that forces letters to output as numbers giving encryption, security and readability.
 
+#uboat Beta News
+Uboat has Beta releases available! This section is updated often to reflect the current state.
+Current Version: 1.0.2-2
+
+To download the beta, head into the "Releases" section.
+
 # Features
 Uboat is a JavaScript library that provides a simple and fun way to encrypt and decrypt text using a modified version of the Morse code. It replaces the dots and dashes of Morse code with a unique set of numbers that represent each letter of the alphabet, making it a more secure way to encrypt text.
 
