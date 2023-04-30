@@ -3,7 +3,7 @@ A multi-language system that forces letters to output as numbers giving encrypti
 
 # uboat Beta News
 Uboat has Beta releases available! This section is updated often to reflect the current state.
-Current Version: 1.0.2-2
+Current Version: 1.0.2-3
 
 To download the beta, head into the "Releases" section.
 
