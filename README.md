@@ -2,8 +2,8 @@
 A multi-language system that forces letters to output as numbers giving encryption, security and readability.
 
 # uboat Beta News
-Uboat has Beta releases available! This section is updated often to reflect the current state.
-Current Version: 1.0.2-3
+Uboat has no Beta releases available! This section is updated often to reflect the current state.
+Current Version: None, v1.0.2 has released
 
 To download the beta, head into the "Releases" section.
 
@@ -17,6 +17,7 @@ Here is a list of features currently available in Uboat:
 - A help command that lists all available commands
 - A clear command that clears the console
 - A command to redirect the user to the Uboat GitHub repository
+- Translation between string and morse.
 - Uboat is still in development, so more features may be added in the future.
 
 *written by chatgpt*
